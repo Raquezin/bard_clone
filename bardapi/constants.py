@@ -2,7 +2,7 @@ from enum import Enum
 
 from colorama import Fore
 
-ALLOWED_LANGUAGES = {"en", "ko", "ja", "english", "korean", "japanese"}
+ALLOWED_LANGUAGES = {"en", "ko", "ja", "es", "english", "korean", "japanese", "spanish"}
 DEFAULT_LANGUAGE = "en"
 SEPARATOR_LINE = "=" * 36
 USER_PROMPT = Fore.BLUE + "You: " + Fore.RESET
